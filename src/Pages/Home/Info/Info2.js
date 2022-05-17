@@ -3,7 +3,7 @@ import location from "../../../assets/icons/marker.svg";
 
 const Info2 = () => {
   return (
-    <div class="card lg:card-side bg-accent shadow-xl pl-5">
+    <div class="card lg:card-side bg-accent shadow-xl pl-5 pt-5">
       <figure>
         <img src={location} alt="Album" />
       </figure>

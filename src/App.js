@@ -8,25 +8,28 @@ import Login from "./Pages/Login/Login";
 import Reviews from "./Pages/Reviews/Reviews";
 import Footer from "./Pages/Shared/Footer";
 import Navebar from "./Pages/Shared/Navebar";
+import NotFound404 from "./Pages/Shared/NotFound404";
 
 function App() {
-  return (
-    <div>
-      <Navebar></Navebar>
-      <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
-        <Route
-          path="/appointment"
-          element={<Appointment></Appointment>}
-        ></Route>
-        <Route path="/reviews" element={<Reviews></Reviews>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
-        <Route path="/login" element={<Login></Login>}></Route>
-      </Routes>
-      <Footer></Footer>
-    </div>
-  );
+    return (
+        // className="max-w-7xl mx-auto"
+        <div>
+            <Navebar></Navebar>
+            <Routes>
+                <Route path="/" element={<Home></Home>}></Route>
+                <Route path="/about" element={<About></About>}></Route>
+                <Route
+                    path="/appointment"
+                    element={<Appointment></Appointment>}
+                ></Route>
+                <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+                <Route path="/contact" element={<Contact></Contact>}></Route>
+                <Route path="/login" element={<Login></Login>}></Route>
+                <Route path="*" element={<NotFound404></NotFound404>}></Route>
+            </Routes>
+            <Footer></Footer>
+        </div>
+    );
 }
 
 export default App;

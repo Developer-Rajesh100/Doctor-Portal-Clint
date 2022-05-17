@@ -7,16 +7,16 @@ import Services from "./Services/Services";
 import Testimonial from "./Testimonial/Testimonial";
 
 const Home = () => {
-  return (
-    <div className="mx-20">
-      <Banner></Banner>
-      <Info></Info>
-      <Services></Services>
-      <Doctor></Doctor>
-      <Testimonial></Testimonial>
-      <ContractUs></ContractUs>
-    </div>
-  );
+    return (
+        <div className="mx-20">
+            <Banner></Banner>
+            <Info></Info>
+            <Services></Services>
+            <Doctor></Doctor>
+            <Testimonial></Testimonial>
+            <ContractUs></ContractUs>
+        </div>
+    );
 };
 
 export default Home;

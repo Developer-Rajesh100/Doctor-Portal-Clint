@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import AppointmentBanner from "./AppointmentBanner";
+import AvailableAppointments from "./AvailableAppointments";
+// import { DayPicker } from "react-day-picker";
+// import "react-day-picker/dist/style.css";
 
 const Appointment = () => {
-  return (
-    <div>
-      <h1>This is Appointment...</h1>
-    </div>
-  );
+    const [date, setDate] = useState(new Date());
+    return (
+        <div className="mx-20">
+            <AppointmentBanner
+                date={date}
+                setDate={setDate}
+            ></AppointmentBanner>
+            <AvailableAppointments date={date}></AvailableAppointments>
+        </div>
+    );
 };
 
 export default Appointment;

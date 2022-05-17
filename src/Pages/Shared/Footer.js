@@ -3,7 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="flexs">
-      <footer class="footer p-10 justify-items-center h-60 bg-[url('https://i.ibb.co/XZxPJXp/footer.png')]">
+      <footer
+    //   style={{backgroubd: `url(https://i.ibb.co/XZxPJXp/footer.png)`,
+    //   backgroubdSize: 'cover'
+    // }}
+      class="footer p-10 justify-items-center bg-[url('https://i.ibb.co/XZxPJXp/footer.png')]">
         <div>
           <span class="footer-title">Services</span>
           <a class="link link-hover">Branding</a>
@@ -25,7 +29,7 @@ const Footer = () => {
           <a class="link link-hover">Cookie policy</a>
         </div>
       </footer>
-      <p className="text-center mb-5">
+      <p className="text-center mb-5 mt-10">
         &#169; {new Date().getFullYear()} All Rights Reserved
       </p>
     </section>

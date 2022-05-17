@@ -3,7 +3,7 @@ import call from "../../../assets/icons/phone.svg";
 
 const Info3 = () => {
   return (
-    <div class="card lg:card-side bg-base-100 shadow-xl bg-gradient-to-r from-secondary to-primary pl-5">
+    <div class="card lg:card-side bg-base-100 shadow-xl bg-gradient-to-r from-secondary to-primary pl-5 pt-5">
       <figure>
         <img src={call} alt="Album" />
       </figure>

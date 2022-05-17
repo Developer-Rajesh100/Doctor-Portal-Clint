@@ -3,7 +3,7 @@ import clock from "../../../assets/icons/clock.svg";
 
 const Info1 = () => {
   return (
-    <div class="card lg:card-side bg-base-100 shadow-xl bg-gradient-to-r from-secondary to-primary pl-5">
+    <div class="card lg:card-side bg-base-100 shadow-xl bg-gradient-to-r from-secondary to-primary pl-5 pt-5">
       <figure>
         <img src={clock} alt="Album" />
       </figure>
