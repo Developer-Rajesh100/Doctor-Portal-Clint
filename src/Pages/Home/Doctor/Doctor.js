@@ -27,7 +27,7 @@ const Doctor = () => {
                     readable English. Many desktop publishing packages and web
                     page
                 </p>
-                <button class="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">
+                <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">
                     Get Started
                 </button>
             </div>
